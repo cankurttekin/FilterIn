@@ -1,5 +1,3 @@
-
-// Function to hide jobs based on user preferences
 function filterJobs(options) {
   // Select all job listings
   const jobs = document.querySelectorAll('li.jobs-search-results__list-item');
@@ -45,7 +43,6 @@ function filterJobs(options) {
     }
   });
 }
-
 
 // Load options from storage and apply filters
 function applyFilters() {
